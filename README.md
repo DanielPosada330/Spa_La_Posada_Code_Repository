@@ -1,5 +1,6 @@
+![Image](https://github.com/user-attachments/assets/d2f8b79c-f354-461a-9249-c444908c2c30)
+
 # Spa_La_Posada_Excel_Automation
-![Spa La Posada Image]https://github.com/DanielPosada330/Spa_La_Posada_Excel_Automation/blob/main/Images/Company%20Logos/Spa_La_Posada_Logo.jpg
 Welcome to the code repository of Spa La Posada! This is where the code and magic happens with the automation of reports and other business functions for the business occur. Below will be an explanation of what technologies are used here at the business, as well list out the projects within the repo and what their purposes are.
 
 Each project will house its own README file, so if you need more information for those particular projects, please refer to each project's respective documentation.
