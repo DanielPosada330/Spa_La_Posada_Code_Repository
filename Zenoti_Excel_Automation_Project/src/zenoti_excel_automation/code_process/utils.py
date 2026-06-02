@@ -16,7 +16,7 @@ Typical usage:
         stock = download_consumption_report(config, center_id, center_name)
         products = get_center_products(config, center_id, center_name)
         enriched = enrich_with_pricing(stock, products)
-        export_to_csv(enriched, f"consumption_{center_name}.csv")
+        export_to_csv(enriched, f"product_consumption_report_{center_name}.csv")
 
 Refer to config.env for required credentials and center GUIDs.
 """
@@ -409,7 +409,7 @@ def export_to_csv(
 
     Args:
         data: List of dicts (e.g., from :func:`enrich_with_pricing`).
-        filename: Name of the CSV file, e.g. ``"consumption_Brownsville.csv"``.
+        filename: Name of the CSV file, e.g. ``"product_consumption_report_Brownsville.csv"``.
         output_dir: Directory to write the file into (default ``"output"``).
 
     Returns:
