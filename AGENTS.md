@@ -64,3 +64,18 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+## 5. Python Coding Standards
+
+**Produce industry standard Python code. Follow good software engineering principles**
+
+When writing code, make sure to do the following:
+- Avoid "Magic Strings"
+- Utilize Enums when posible
+- Avoid environment variables in each python file and instead use config files when possible
+- Add Docstrings to each function you create
+- Use Ruff for linting and formatting after each code edit
+
+**Online Python Style Guide**
+
+Refer to Spa_La_Posada_Excel_Automation/PYTHONSTYLEGUIDE.md when making python style decisions
