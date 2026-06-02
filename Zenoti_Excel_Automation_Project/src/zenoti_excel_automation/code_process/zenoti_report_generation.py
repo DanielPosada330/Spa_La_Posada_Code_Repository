@@ -35,7 +35,7 @@ def main() -> None:
 
         products_lookup = get_center_products(config, center_id, center_name)
         enriched = enrich_with_pricing(stock_data, products_lookup)
-        filename = f"consumption_{center_name}.csv"
+        filename = f"product_consumption_report_{center_name}.csv"
         export_to_csv(enriched, filename)
 
 
